@@ -14,6 +14,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### Enable Proxy in localhost to AllowCross Origin to allow requests 
+Go to package.json
+Set the proxy param to url localhost personalized
+"private": true,
+"proxy": "http://localhost:8080",
+"dependencies": 
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

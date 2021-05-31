@@ -13,10 +13,11 @@ class App extends Component {
                 <TopBar/>
 
                     <div className="subcontainerBody">
+                        <Row className="rowMargin"></Row>
                         <Row>
                         <Col>
                             <Row>
-                                <img src={imgPlanet} alt="starship" className="image"/>
+                                <img src={imgPlanet} alt="starship" className="center-image"/>
                             </Row>
                             <Row>
 
@@ -28,7 +29,7 @@ class App extends Component {
                         <Col></Col>
                         <Col>
                             <Row>
-                                <img src={imgStarShip} alt="starship" className="image"/>
+                                <img src={imgStarShip} alt="starship" className="center-image"/>
                             </Row>
                             <Row>
                                 <Button className="button btn-black" onClick={() => history.push('/StarShips')}> See the

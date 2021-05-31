@@ -63,7 +63,16 @@
   margin: 0 auto;
 }
 
-.image{
-  width: 80% !important;
 
+.center-image{
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+  width: 100% !important;
+  background:white;
+}
+
+.center-image img{
+  max-width:100%;
+  max-height:100%;
 }
